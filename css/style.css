@@ -111,6 +111,12 @@ p,
 
 .faq-title {
   padding: 18px 24px;
+  cursor: pointer;
+}
+
+.faq .card {
+  border: 1px solid #D0D0D0;
+  border-radius: 8px;
 }
 
 .faq-title div::before {

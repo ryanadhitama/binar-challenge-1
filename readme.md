@@ -1,1 +1,1 @@
-# Binar Challenge 1
+# Binar Academy Challenge 1
