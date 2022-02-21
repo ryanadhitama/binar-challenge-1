@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/aos.css" />
+    <link rel="stylesheet" href="./css/swiper.css" />
     <link rel="stylesheet" href="./icons/font/bootstrap-icons.css" />
   </head>
   <body>
@@ -190,8 +191,111 @@
     </section>
     <section id="testimonial">
       <div class="container text-center">
-        <h2 class="mb-3">Testimonial</h2>
-        <p class="mb-40">Berbagai review positif dari para pelanggan kami</p>
+        <h2 class="mb-3" data-aos="fade-up">Testimonial</h2>
+        <p class="mb-40" data-aos="fade-up">Berbagai review positif dari para pelanggan kami</p>
+      </div>
+      <div class="swiper testimonial" data-aos-duration="700" data-aos="fade-up">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img class="profile" src="img/img_photo_1.png" alt="" />
+              <div class="testimonial-content">
+                <div class="star">
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmod”
+                </p>
+                <span>John Dee 32, Bromo</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img class="profile" src="img/img_photo_2.png" alt="" />
+              <div class="testimonial-content">
+                <div class="star">
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmod”
+                </p>
+                <span>John Dee 32, Bromo</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img class="profile" src="img/img_photo_1.png" alt="" />
+              <div class="testimonial-content">
+                <div class="star">
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                  <img src="img/star.svg" alt="" />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmod”
+                </p>
+                <span>John Dee 32, Bromo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-wrapper">
+          <div class="swiper-prev swiper-button">
+            <svg
+              width="8"
+              height="12"
+              viewBox="0 0 8 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.5 11L1.5 6L6.5 1"
+                stroke="#222222"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="swiper-next swiper-button">
+            <svg
+              width="8"
+              height="12"
+              viewBox="0 0 8 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.5 11L6.5 6L1.5 1"
+                stroke="#222222"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
       </div>
     </section>
     <section>
@@ -404,16 +508,16 @@
           <div class="col-lg-2 col-md-6" data-aos="fade-up">
             <ul class="footer-menu">
               <li>
-                <a href="">Our services</a>
+                <a href="#service">Our services</a>
               </li>
               <li>
-                <a href="">Why Us</a>
+                <a href="#why-us">Why Us</a>
               </li>
               <li>
-                <a href="">Testimonial</a>
+                <a href="#testimonial">Testimonial</a>
               </li>
               <li>
-                <a href="">FAQ</a>
+                <a href="#faq">FAQ</a>
               </li>
             </ul>
           </div>
@@ -438,5 +542,6 @@
   <script src="./js/jquery.js"></script>
   <script src="./js/bootstrap.js"></script>
   <script src="./js/aos.js"></script>
+  <script src="./js/swiper.js"></script>
   <script src="./js/main.js"></script>
 </html>

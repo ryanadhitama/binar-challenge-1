@@ -2,6 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-size: 14px;
+  line-height: 20px;
+}
+
 section {
   overflow: hidden;
 }
@@ -22,6 +27,16 @@ section {
 
 section.why-us {
   padding-top: 100px;
+}
+
+.btn-success {
+  background: #5CB85F;
+  border-color: #5CB85F;
+}
+
+.btn {
+  border-radius: 2px;
+  padding: 8px 12px;
 }
 
 .btn,
@@ -50,6 +65,15 @@ section.why-us {
 .navigation .navbar a.nav-link {
   padding-left: 16px;
   padding-right: 16px;
+  position: relative;
+}
+
+.navigation .navbar a.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navigation .navbar li:nth-child(4) a.nav-link {
+  padding-right: 32px;
 }
 
 h1 {
@@ -67,8 +91,6 @@ h2 {
 .footer-menu,
 p,
 .service li {
-  font-size: 14px;
-  line-height: 20px;
   font-weight: 300;
 }
 
@@ -115,7 +137,7 @@ p,
 }
 
 .faq .card {
-  border: 1px solid #D0D0D0;
+  border: 1px solid #d0d0d0;
   border-radius: 8px;
 }
 
@@ -169,6 +191,66 @@ p,
   height: 24px;
   position: absolute;
   left: 0;
+}
+
+.swiper {
+  width: 100%;
+  overflow: visible;
+}
+
+.testimonial-item {
+  padding: 69px 32px 69px 46px;
+  background: #f1f3ff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-item .star {
+  margin-bottom: 16px;
+}
+
+.testimonial-item .profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.testimonial-item .testimonial-content {
+  padding-left: 46px;
+}
+
+.swiper-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  transition: ease 0.5s;
+}
+
+.swiper-button:hover {
+  background-color: #5cb85f;
+}
+
+.swiper-button svg {
+  height: 13px;
+}
+
+.swiper-button:hover svg > path {
+  stroke: #ffffff;
+}
+
+.swiper-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 88px;
+  width: 100%;
+  margin: 24px auto 0;
 }
 
 @media (max-width: 1440px) {
@@ -252,6 +334,16 @@ p,
 
   .mb-40 {
     margin-bottom: 30px !important;
+  }
+
+  .testimonial-item {
+    display: inline-block;
+    text-align: center;
+    padding: 50px 24px 50px 24px;
+  }
+
+  .testimonial-item .testimonial-content {
+    padding-left: 0px;
   }
 }
 
